@@ -1,0 +1,248 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.header{
+  background-color: khaki;
+  height: 100px;}
+
+.header-right {
+  display: block;
+  float: left;
+}
+
+.active{
+  display: block;
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+.container1{
+    text-align: center;
+    height:100px;
+    width: auto;
+    background-color: khaki;
+    border: 1px white;
+display: block;}
+
+div.container2{
+    display: block;
+    background-color: 1px khaki;
+}
+.section{  
+
+    text-align: left;
+    height: 20%;
+    font-size: 10px;
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-left: 170px;
+   
+}
+#about{
+    display: inline-block;
+   /* width: 500px;*/
+    height: 10px;
+    /*padding: 10px;*/
+   
+   
+  
+}
+#exp{
+   /* width: 500px;*/
+    height: 10px;
+    /*padding: 10px;*/
+  
+  
+}
+#hobby{
+    /*width: 500px;*/
+    height: 10px;
+    /*padding: 10px;*/
+     
+}
+h5{
+text-align: center;
+}
+/*.container3{
+
+    height: 500px;
+    background-color: maroon;
+   
+}
+/*img{
+
+  
+  margin: 50px;
+  inline-size:100px;
+    border-radius: 50%;
+}*/
+.img1{
+  inline-size: 100px;
+ border-radius: 90%;
+  border-color: azure;
+}
+.img2{
+  inline-size: 100px;
+ border-radius: 90%;
+  border-color: azure;
+}
+.img3{
+  inline-size: 100px;
+ border-radius: 90%;
+  border-color: azure;
+}
+.img4{
+
+  inline-size: 100px;
+ border-radius: 90%;
+  border-color: azure;
+}
+
+
+div.container3{
+  clear: both;
+  display: block;
+   width: 2000px;; 
+   margin: 50px 0px 0px 0px;
+ /* padding: 100px; */
+  background-color:khaki;
+}
+.section1{
+  padding-left:25px !important;
+  height: 100%;
+  width: 170px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin: 0 auto;
+    /*padding-bottom: 50px;
+    padding-left: 170px;*/
+}
+
+  
+#exp1{
+  
+  padding: 50px;
+ margin: 20px;
+  border-style: solid;
+}
+#hobby1{
+  padding: 50px;
+  border-style: solid;
+  margin: 20px;
+}
+#hobby2{
+  padding: 50px;
+  border-style: solid;
+  margin: 20px;
+}
+
+#about1{
+
+  padding: 48px;
+  border-style: solid;
+  margin: 20px;
+ 
+}
+div.container4{
+  display: block;
+  margin: 10px;
+  padding: 100px; 
+  background-color:white;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+div.section2{
+margin: 10px 10px 10px 10px;
+  height: auto;
+  display: inline-block;
+}
+
+div.c3{
+  display: inline-block;
+padding: 10px 50px 10px 280px;
+}
+div.e4{
+  padding: 5px 150px;
+margin: 25px;
+}
+.footer{
+  clear: both;
+ background-color: khaki;
+  padding: 50px;
+
+}
+.fa {
+  float: right;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.btn{
+  background-color: #bb0000;
+}
+h10{
+  color: black;
+  font-size: 50px;
+}
+tag{
+  float: left;
+}
